@@ -17,9 +17,9 @@
 
 #checkbox {
     display: none;
-  }
-  
-  .toggle {
+}
+
+.toggle {
     position: relative;
     width: 40px;
     height: 40px;
@@ -30,61 +30,66 @@
     justify-content: center;
     gap: 10px;
     transition-duration: .5s;
-  }
-  
-  .bars {
+}
+
+.bars {
     width: 100%;
     height: 4px;
     background-color: white;
     border-radius: 4px;
     z-index: 10 !important;
     display: none;
-  }
-  .z-10 {
+}
+
+.z-10 {
     z-index: 10 !important;
-  }
-  #bar2 {
+}
+
+#bar2 {
     transition-duration: .8s;
-  }
-  
-  #bar1,#bar3 {
+}
+
+#bar1,
+#bar3 {
     width: 70%;
-  }
-  
-  #checkbox:checked + .toggle .bars {
+}
+
+#checkbox:checked+.toggle .bars {
     position: absolute;
     transition-duration: .5s;
-  }
-  
-  #checkbox:checked + .toggle #bar2 {
+}
+
+#checkbox:checked+.toggle #bar2 {
     transform: scaleX(0);
     transition-duration: .5s;
-  }
-  
-  #checkbox:checked + .toggle #bar1 {
+}
+
+#checkbox:checked+.toggle #bar1 {
     width: 100%;
     transform: rotate(45deg);
     transition-duration: .5s;
-  }
-  
-  #checkbox:checked + .toggle #bar3 {
+}
+
+#checkbox:checked+.toggle #bar3 {
     width: 100%;
     transform: rotate(-45deg);
     transition-duration: .5s;
-  }
-  
-  #checkbox:checked + .toggle {
+}
+
+#checkbox:checked+.toggle {
     transition-duration: .5s;
     transform: rotate(180deg);
-  }
-  
+}
+
 .nav-link:hover {
     color: #F4241E;
 
 }
-.accordion-item{
+
+.accordion-item {
     border: none !important;
 }
+
 .gap-10 {
     gap: 10px;
 }
@@ -155,7 +160,7 @@
     font-weight: 700;
     line-height: 54px;
     color: #000000;
-padding-top: 50px;
+    padding-top: 50px;
 }
 
 .right-one {
@@ -384,58 +389,66 @@ padding-top: 50px;
     max-width: 1320px;
     margin: 0 auto;
 }
+
 .left {
     left: 0;
-  }
-  
-  .right {
+}
+
+.right {
     left: 50%;
-  }
-  
-  .right::after {
+}
+
+.right::after {
     left: -18px;
-  }
-  
-  .content {
+}
+
+.content {
     padding: 27px 23px 27px 23px;
     background-color: white;
     position: relative;
     border-radius: 6px;
-  }
+}
 
-.left-burger-1{
+.left-burger-1 {
     top: 6%;
     left: 11%;
 }
-.left-burger-2{
+
+.left-burger-2 {
     top: 33%;
     left: 0%;
 }
 
-.left-burger3{
+.left-burger3 {
     top: 55%;
     right: 71%;
 }
-.left-burger4{
+
+.left-burger4 {
     bottom: 8%;
     left: 0%;
 }
-.right-burger-1{
+
+.right-burger-1 {
     top: 6%;
     right: 0%;
 }
-.right-burger-2{
+
+.right-burger-2 {
     top: 26%;
     right: 16%;
 }
-.right-burger-3{
+
+.right-burger-3 {
     bottom: 15%;
     right: 0%;
 }
-.right-burger-4{
+
+.right-burger-4 {
     bottom: 8%;
     right: 22%;
 }
+
 .nav-text {
     font-family: "Poppins", sans-serif;
     font-size: var(--fs-18);
@@ -444,12 +457,13 @@ padding-top: 50px;
     text-align: left;
     color: var(--black);
     text-decoration: none;
-  }
-  .nav-text:hover {
-    color: red;
-  }
+}
 
-  .time-line::after{
+.nav-text:hover {
+    color: red;
+}
+
+.time-line::after {
     content: "";
     width: 8px;
     height: 100%;
@@ -457,8 +471,9 @@ padding-top: 50px;
     top: 2%;
     left: 50%;
     position: absolute;
-  }
-  .circle-left::after{
+}
+
+.circle-left::after {
     content: "";
     position: absolute;
     width: 35px;
@@ -468,8 +483,9 @@ padding-top: 50px;
     right: -22px;
     z-index: 1;
     top: 0;
-  }
-  .circle-rigth::after{
+}
+
+.circle-rigth::after {
     content: "";
     position: absolute;
     width: 35px;
@@ -479,7 +495,8 @@ padding-top: 50px;
     left: -13px;
     z-index: 1;
     top: 0;
-  }
+}
+
 @media (max-width:992px) {
     .menu-item {
         display: flex;
@@ -491,7 +508,7 @@ padding-top: 50px;
         flex-direction: column;
         width: 100%;
         right: -100%;
-        background: pink;
+        background: yellow;
         min-height: 100vh;
         transition: all 300ms linear;
     }
@@ -499,7 +516,8 @@ padding-top: 50px;
     .show-nav {
         right: 0 !important;
     }
-    .bars{
+
+    .bars {
         display: block;
     }
 }
@@ -541,31 +559,32 @@ padding-top: 50px;
 
 @media (max-width: 768px) {
     .timeline::after {
-      left: 31px;
+        left: 31px;
     }
-  
+
     .container-t {
-      width: 100%;
-      padding-left: 70px;
-      padding-right: 25px;
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
     }
-  
+
     .container-t::before {
-      left: 60px;
-      border: medium solid white;
-      border-width: 10px 10px 10px 0;
-      border-color: transparent white transparent transparent;
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
     }
-  
+
     .left::after,
     .right::after {
-      left: 10px;
+        left: 10px;
     }
-  
+
     .right {
-      left: 0%;
+        left: 0%;
     }
-    .time-line::after{
+
+    .time-line::after {
         left: 8%;
     }
 }
