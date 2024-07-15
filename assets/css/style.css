@@ -7,7 +7,7 @@
 
 .nav-link {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--18);
+    font-size: var(--fs--sm);
     font-weight: 400;
     line-height: 32.4px;
     text-align: left;
@@ -39,7 +39,6 @@
     z-index: 10 !important;
     display: none;
 }
-
 .z-10 {
     z-index: 10 !important;
 }
@@ -101,7 +100,7 @@
     background: #FFFFFF;
 
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--20);
+    font-size: var(--fs--md);
     font-weight: 500;
     line-height: 30px;
     text-align: left;
@@ -156,7 +155,7 @@
 
 .welcome {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--36);
+    font-size: var(--fs--xl);
     font-weight: 700;
     line-height: 54px;
     color: #000000;
@@ -190,7 +189,7 @@
 
 .heading {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--48);
+    font-size: var(--fs--2xl);
     font-weight: 700;
     line-height: 72px;
     text-align: left;
@@ -199,7 +198,7 @@
 
 .sec-para {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--18);
+    font-size: var(--fs--sm);
     font-weight: 400;
     line-height: 32.4px;
     text-align: left;
@@ -215,7 +214,7 @@
     background: red;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--20);
+    font-size: var(--fs--md);
     font-weight: 500;
     line-height: 30px;
     text-align: left;
@@ -237,7 +236,7 @@
 
 .number-data {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--48);
+    font-size: var(--fs--2xl);
     font-weight: 700;
     line-height: 72px;
     text-align: center;
@@ -247,7 +246,7 @@
 
 .head {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--48);
+    font-size: var(--fs--2xl);
     font-weight: 700;
     line-height: 72px;
     text-align: center;
@@ -256,7 +255,7 @@
 
 .public {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--18);
+    font-size: var(--fs--sm);
     font-weight: 400;
     line-height: 32.4px;
     text-align: left;
@@ -266,7 +265,7 @@
 
 .team {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--48);
+    font-size: var(--fs--2xl);
     font-weight: 700;
     line-height: 72px;
     text-align: left;
@@ -275,7 +274,7 @@
 
 .jhone-deo {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--24);
+    font-size: var(--fs--lg);
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
@@ -285,7 +284,7 @@
 
 .manager {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--18);
+    font-size: var(--fs--sm);
     font-weight: 400;
     line-height: 32.4px;
     text-align: center;
@@ -294,7 +293,7 @@
 
 .faq-head {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--48);
+    font-size: var(--fs--2xl);
     font-weight: 700;
     line-height: 72px;
     text-align: left;
@@ -303,7 +302,7 @@
 
 .amet {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--18);
+    font-size: var(--fs--sm);
     font-weight: 600;
     line-height: 27px;
     text-align: left;
@@ -312,7 +311,7 @@
 
 .enim-text {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--18);
+    font-size: var(--fs--sm);
     font-weight: 400;
     line-height: 32.4px;
     text-align: left;
@@ -331,7 +330,7 @@
 
 .copy-right {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--18);
+    font-size: var(--fs--sm);
     font-weight: 400;
     line-height: 32.4px;
     text-align: center;
@@ -341,7 +340,7 @@
 
 .road-map {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--48);
+    font-size: var(--fs--2xl);
     font-weight: 700;
     line-height: 72px;
     text-align: left;
@@ -350,7 +349,7 @@
 
 .timeline-text1 {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--24);
+    font-size: var(--fs--lg);
     font-weight: 700;
     line-height: 36px;
     text-align: left;
