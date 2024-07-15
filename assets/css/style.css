@@ -108,6 +108,7 @@
     text-align: left;
     text-align: center;
     border: none;
+    transition: all 300ms linear;
 }
 
 .nav-button:hover {
