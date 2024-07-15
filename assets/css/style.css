@@ -11,7 +11,6 @@
     font-weight: 400;
     line-height: 32.4px;
     text-align: left;
-    color: #000000;
 
 }
 
@@ -136,7 +135,7 @@
     top: 7%;
 }
 
-.three-burger {
+.burger {
     left: 0%;
     bottom: 17%;
 }
@@ -360,7 +359,6 @@
 
 .timeline-text2 {
     font-family: 'Poppins', sans-serif;
-    font-size: var(--fs--24);
     font-weight: 400;
     line-height: 36px;
     text-align: left;
