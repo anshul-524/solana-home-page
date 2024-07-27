@@ -491,7 +491,9 @@
 .accordion-button{
     box-shadow: none !important;
 }
-
+.pb-106{
+  padding-bottom: 106px;
+}
 @media (max-width: 992px) {
   .menu-item {
     display: flex;
