@@ -494,6 +494,13 @@
 .pb-106{
   padding-bottom: 106px;
 }
+.accordion-width{
+  max-width: 922px;
+}
+.box-parents{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 @media (max-width: 992px) {
   .menu-item {
     display: flex;
