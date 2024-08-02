@@ -558,6 +558,7 @@
   .right-four {
     display: none;
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -589,5 +590,8 @@
 
   .time-line::after {
     left: 8%;
+    left: 26px;
   }
+   
 }
+
